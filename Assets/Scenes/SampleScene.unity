@@ -791,6 +791,7 @@ GameObject:
   - component: {fileID: 227660279}
   - component: {fileID: 227660284}
   - component: {fileID: 227660283}
+  - component: {fileID: 227660285}
   m_Layer: 0
   m_Name: Joe
   m_TagString: Untagged
@@ -868,6 +869,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.57, y: -0.26}
   m_Size: {x: 3.12, y: 0.41}
   m_Direction: 1
+--- !u!114 &227660285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227660278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f8cdf18e8ea0b499e843d5f6b2c63f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torqueAmount: 1
 --- !u!1 &359894952
 GameObject:
   m_ObjectHideFlags: 0
